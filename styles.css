@@ -70,7 +70,7 @@ body{
 
 #local{
     background: #f3f3f3;
-    padding-bottom: 150px;
+    
     display: flex;
     justify-content: center;
 }
