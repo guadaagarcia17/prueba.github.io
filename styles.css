@@ -160,7 +160,11 @@ body{
 }
 
 img{
-    width: 10%;
+    width: 100%;
+}
+
+.imagen2{
+    width: 50%;
 }
 
 #inicio{
