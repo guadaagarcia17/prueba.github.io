@@ -70,11 +70,6 @@ body{
 
 #local{
     background: #f3f3f3;
-<<<<<<< HEAD
-    padding-bottom: 150px;
-=======
-    
->>>>>>> 8bb8c71badf3f1d77ea8ff02874d55f353f8d2ac
     display: flex;
     justify-content: center;
 }
