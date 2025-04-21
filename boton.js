@@ -1,7 +1,7 @@
 const scrollTopButton = document.getElementById('scroll-top');
 
 window.addEventListener('scroll', () => {
-  if (window.scrollY > 400) { // Mostrar cuando el usuario se desplaza más de 100px
+  if (window.scrollY > 100) {
     scrollTopButton.style.display = 'block';
   } else {
     scrollTopButton.style.display = 'none';
