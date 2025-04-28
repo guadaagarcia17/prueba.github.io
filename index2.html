@@ -80,6 +80,49 @@
          </div>
       </section>
 
+      <h1 id="titulo">Titulo</h1>
+      <h1 id="subtitulo">subtitulo</h1>
+      <button id="cambio"onclick="ocultar()">Boton</button>
+      <p id="accion"></p>
+    
+  
+      <script type="text/javascript">
+          function ocultar(){
+              const texto1 = document.getElementById("titulo");
+            
+             if(texto1.getAttribute("style") === "display:block"){
+              texto1.setAttribute("style", "display:none")
+              document.getElementById("cambio").innerHTML = "Mostrar"
+              vista = "none";
+             
+             }
+             else{
+              texto1.setAttribute("style", "display:block")
+              document.getElementById("cambio").innerHTML = "Ocultar"
+              vista = "block";
+              
+             }
+  
+          }
+  
+          const btn1 = document.getElementById("cambio");
+          btn1.addEventListener("mouseover" , adentro)
+          btn1.addEventListener("mouseout", afuera)
+          btn1.addEventListener("click" , clickboton)
+  
+          function adentro(){
+              document.getElementById("accion").innerHTML = "Mouse sobre el boton <br>";
+          }
+  
+          function afuera(){
+              document.getElementById("accion").innerHTML = "Mause fuera del boton <br>"
+          }
+  
+          function clickboton(){
+              document.getElementById("accion").innerHTML = "Click arriba del botoon <br>"
+          }
+      </script>
+
       <a href="#" id="scroll-top" class="scroll-top-button"><img src="boton.png" alt=""></a>
 
       <footer class="footer container">
